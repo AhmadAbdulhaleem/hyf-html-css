@@ -1,0 +1,82 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #E6DADA, #274046);
+}
+
+.container {
+    width: 1260px;
+    margin: 40px auto;
+}
+
+.content {
+    display: flex;
+}
+
+.container .content .image img {
+    width: 389px;
+    height: 331px;
+    margin-right: 40px;
+    margin-top: 23px;
+}
+
+.container .content .personal_info h1 {
+    color: #0088cc;
+    font-weight: 300;
+}
+
+.container .content .personal_info .info,
+.container .my_info_2 {
+    font-size: 25px;
+}
+
+/* Education & work exp Section */
+
+.education, .work_exp, .learn_resources {
+    margin-bottom: 40px;
+}
+.education .header_of_education,
+.work_exp .header_of_exp,
+.learn_resources .header_of_refe {
+    color: #0088cc;
+    font-weight: 300;
+    box-shadow: 0 8px 25px rgba(0,0,0,.6);
+    padding: 14px;
+    background-color: #eaeaea;
+
+}
+
+.education p,
+.work_exp p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.work_exp p .year {
+    background: #ccc;
+    padding: 8px;
+    border-radius: 15px;
+    color: #555;
+}
+
+/* References Section */
+.learn_resources ul {
+    margin-left: -38px;
+}
+
+
+.learn_resources ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.learn_resources ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: crimson;
+    font-weight: 300;
+}
