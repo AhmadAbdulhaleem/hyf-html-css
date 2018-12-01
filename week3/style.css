@@ -1,0 +1,747 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    /*width: 1200px;*/
+    /*margin: 10px auto;*/
+    background-color: #f3f3f3;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 210px;
+}
+
+/* Navbar */
+nav {
+    background: #01689b;
+    width: 100%;
+}
+
+nav .navbar {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    font-size: 15px;
+    justify-content: space-around;
+    width: 70%;
+}
+
+nav .navbar li.blank {
+    margin-right: auto;
+}
+
+nav .navbar li.items {
+    margin-right: 40px;
+}
+
+nav .navbar li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Header Background */
+.wrapper .header-background {
+    background: url("img/bereken-minimumloon.jpg");
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+}
+
+/* All Info Section */
+.header-background .all_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-background .all_info .left_info {
+    background-color: #FFF;
+    color: #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.header-background .all_info .left_info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 200;
+
+}
+
+.header-background .all_info .left_info ul {
+    list-style: none;
+}
+
+.header-background .all_info .left_info ul li {
+    padding: 10px;
+    position: relative;
+}
+
+.header-background .all_info .left_info ul li:before {
+    content: '\203A';
+    position: absolute;
+    left: -7px;
+    top: 2px;
+    color: #01689b;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header-background .all_info .left_info ul li a {
+    text-decoration: none;
+    color: #01689b;
+    font-weight: bold;
+}
+
+.header-background .all_info .right_info {
+    color: #000;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.header-background .all_info .right_info .search_bar input {
+    padding: 10px;
+    width: 300px;
+}
+
+.header-background .all_info .right_info .search_bar form {
+    position: relative;
+}
+
+.header-background .all_info .right_info .search_bar form button {
+    position: absolute;
+    right: -37px;
+    top: 0px;
+    background: #000;
+    color: #FFF;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+}
+
+/* Body Section */
+.body_section {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.container .body_section div {
+    flex: 0 0 23%;
+}
+
+.container .body_section div h2 {
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #01689b;
+    font-size: 18px;
+}
+
+.container .body_section div p {
+    color: #000;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+/* Articles Content */
+.articles_content {
+    width: 71%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.articles_content .article {
+    flex: 0 0 30%;
+}
+
+.articles_content .article img {
+    max-height: 300px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.articles_content .article h3 {
+    margin-bottom: 15px;
+}
+
+.articles_content .article h3 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #01689b;
+    font-size: 21px;
+}
+
+.articles_content .article p {
+    line-height: 1.5;
+    font-size: 13.5px;
+}
+
+/* News Section */
+.news_section {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.news_section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 14px;
+}
+
+.news_section .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news_section .wrapper section {
+    flex: 0 0 30%;
+    margin-bottom: 50px;
+}
+
+.news_section .wrapper section h3 {
+    margin-bottom: 10px;
+}
+
+.news_section .wrapper section h3 a {
+    text-decoration: none;
+    color: #01689b;
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.news_section .wrapper section span {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.news_section .wrapper section p {
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.news_section .wrapper .more_news:before {
+    content: '\203A';
+    position: absolute;
+    left: -17px;
+    top: -3px;
+    color: #01689b;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.news_section .wrapper .more_news {
+    color: #01689b;
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* More Questions Section */
+.more_questions {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.more_questions .wrapper {
+    flex: 0 0 26%;
+    border: 3px solid #cbd2e3;
+    padding: 20px;
+    margin-right: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.more_questions .wrapper h1 {
+    color: #1b5e84;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.more_questions .wrapper p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.more_questions .wrapper:nth-of-type(1) span {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1b5e84;
+}
+
+.more_questions .wrapper:nth-of-type(2) h2 {
+    font-size: 24px;
+    color: #111;
+    font-weight: 500;
+}
+
+.more_questions .wrapper:nth-of-type(2) p {
+    color: #a90061;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+/* Footer */
+footer {
+    padding: 40px;
+    width: 100%;
+    background-color: #01689b;
+    color: #FFF;
+    margin-top: 30px;
+}
+
+footer .wrapper {
+    display: flex;
+    margin: 20px auto 0;
+    width: 73%;
+    justify-content: space-around;
+}
+
+footer .wrapper .left_side {
+    flex: 1 0 40%;
+}
+
+footer .wrapper .left_side h1 {
+    font-style: italic;
+    letter-spacing: -1.6px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+footer .wrapper .first_list,
+footer .wrapper .second_list {
+    flex: 0 0 18%;
+}
+
+footer .wrapper .first_list h2,
+footer .wrapper .second_list h2 {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+footer .wrapper .first_list a,
+footer .wrapper .second_list a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+}
+
+footer .wrapper .first_list ul li,
+footer .wrapper .second_list ul li {
+    list-style: none;
+    margin: 5px 0;
+}
+
+/* Info Section */
+.info_section {
+    margin: 30px auto;
+    width: 40%;
+}
+
+.info_section ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info_section ul li.dutch_lang {
+    list-style: none;
+    padding: 11px 13px 10px 15px;
+    font-weight: bold;
+}
+
+.info_section ul li.dutch_lang a {
+    color: #000;
+    text-decoration: none;
+}
+
+.info_section ul li:not(.dutch_lang) {
+    list-style: none;
+    border: 1px solid #b2d7ee;
+    padding: 1px 7px 3px 10px;
+    margin: 0 10px;
+}
+
+.info_section ul li a {
+    color: #007bc7;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/*///////////////////////////////////////////////
+    Media Queries
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrapper .header-logo img {
+        margin-right: -60px;
+        height: 125px;
+    }
+
+    nav {
+        background: #01689b;
+        width: 100%;
+        height: 80px;
+        display: flex;
+    }
+
+    nav .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav .navbar li.blank {
+        margin-right: 26px;
+    }
+
+    nav .navbar li a {
+        font-size: 16px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .header-background .all_info {
+        display: flex;
+        justify-content: space-between;
+        max-width: 97%;
+    }
+
+    .wrapper .header-background {
+        background: url(img/bereken-minimumloon.jpg);
+        width: 100%;
+        height: 434px;
+        background-size: cover;
+        background-position: right;
+    }
+
+    .header-background .all_info .left_info {
+        height: 325px;
+        width: 245px;
+        margin-left: 15px;
+    }
+
+    .header-background .all_info .right_info .search_bar input {
+        padding: 15px;
+        width: 200px;
+    }
+
+    .header-background .all_info .right_info .search_bar form button {
+        position: absolute;
+        right: -41px;
+        top: 2px;
+        padding: 13px;
+        font-size: 16px;
+    }
+
+    .body_section {
+        max-width: 100%;
+    }
+
+    .container .body_section div {
+        flex: 0 0 48%;
+    }
+
+    .articles_content {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .articles_content .article {
+        flex: 0 0 46%;
+        margin-bottom: 40px;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+
+    .articles_content .article img {
+        width: 100%;
+    }
+
+    .news_section {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .news_section h2 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .news_section .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 12px;
+    }
+
+    .news_section .wrapper section {
+        flex: 0 0 47%;
+        margin-bottom: 50px;
+    }
+
+    .news_section .wrapper .more_news {
+        display: block;
+    }
+
+    .more_questions {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: flex-start;
+        padding: 15px;
+    }
+
+    .more_questions .wrapper {
+        flex: 0 0 48%;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+
+    footer .wrapper {
+        display: flex;
+        margin: 20px auto 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    footer .wrapper .left_side {
+        flex: 0 0 40%;
+    }
+
+    .info_section {
+        margin: 30px 0px;
+        width: 100%;
+    }
+
+    .info_section ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    body {
+        max-width: 104%;
+    }
+
+    .header-logo {
+        margin-left: 185px;
+        margin-top: -18px;
+        margin-bottom: -28px;
+    }
+
+    .wrapper .header-logo img {
+        width: 220px;
+    }
+
+    nav {
+        background: #01689b;
+        width: auto;
+        height: 330px;
+    }
+
+    nav .navbar {
+        display: flex;
+        padding: 15px;
+        font-size: 20px;
+        /*justify-content: space-between;*/
+        width: 100%;
+        flex-direction: column;
+    }
+
+    nav .navbar li {
+        padding: 7px;
+    }
+
+    .header-background .all_info {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .header-background .all_info .right_info {
+        order: -1;
+    }
+
+    .header-background .all_info .right_info .search_bar input {
+        padding: 18px;
+        width: 100%;
+        margin-left: -20px;
+        font-size: 18px;
+        margin-top: -21px;
+    }
+
+    .header-background .all_info .right_info .search_bar form button {
+        position: absolute;
+        height: 59px;
+        right: -19px;
+        top: -18px;
+        background: #000;
+        color: #FFF;
+        padding: 12px;
+        font-size: 14px;
+        border: none;
+    }
+
+    .header-background .all_info .left_info ul li:before {
+        content: '\203A';
+        position: absolute;
+        left: -7px;
+        top: 4px;
+
+    }
+
+    .body_section {
+        background-color: #f3f3f3;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+        padding: 15px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .container .body_section div {
+        flex: 0 0 100%;
+    }
+
+    .articles_content {
+        width: 100%;
+        margin: 60px auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .articles_content .article {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+        max-width: 400px;
+    }
+
+    .news_section {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .news_section h2 {
+        margin-left: 15px;
+    }
+
+    .news_section .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .news_section .wrapper section {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+        padding: 12px;
+    }
+
+    .news_section .wrapper .more_news {
+        margin-left: 25px;
+    }
+
+    .more_questions {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        padding: 9px;
+    }
+
+    .more_questions .wrapper {
+        height: 230px;
+        /*flex: 0 0 100%;*/
+        border: 3px solid #cbd2e3;
+        padding: 20px;
+        margin-right: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    footer .wrapper {
+        display: flex;
+        margin: 20px auto 0;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    footer .wrapper .left_side {
+        flex: 1 0 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .wrapper .left_side h1 {
+        font-size: 22px;
+    }
+
+    footer .wrapper .first_list, footer .wrapper .second_list {
+        flex: 1 0 50%;
+    }
+
+    .info_section {
+        margin: 30px auto 9px;
+        width: 96%;
+    }
+
+    .info_section ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .info_section ul li:not(.dutch_lang) {
+        margin-top: 10px;
+    }
+}
